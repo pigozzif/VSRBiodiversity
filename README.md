@@ -1,13 +1,13 @@
 # VSRBiodiversity
-This is the official repository for the GECCO (Genetic and Evolutionary Computation Conference-2021) paper "Biodiversity in Evolved Voxel-based Soft Robots", hosting all the code necessary to replicate the experiments. This work is partially based on Marco Rochelli's master's thesis (https://github.com/MarcoRochelli/Co-evolution) and was carried on at the Evolutionary Robotics and Artificial Life Laboratory (ERALLab) at the Department of Engineering and Architecture, University of Trieste (Italy).
+This is the official repository for the GECCO (Genetic and Evolutionary Computation Conference, 2021) paper "Biodiversity in Evolved Voxel-based Soft Robots",**best paper award at complex systems track**, hosting all the code necessary to replicate the experiments. This work is partially based on Marco Rochelli's master's thesis (https://github.com/MarcoRochelli/Co-evolution) and was carried out at the Evolutionary Robotics and Artificial Life Laboratory (ERALLab) at the Department of Engineering and Architecture, University of Trieste (Italy).
 
 ## Scope
-By running the main file (`Main.java`), you will launch an evolutionary optimization for evolving jointly the body (number and arrangement of the voxels) and brain (the controller, an Artificial Neural Network (ANN)) of Voxel-based Soft Robots (VSRs). At the same time, a number of evolution metadata and interesting features will be saved inside the `output` folder. Features include descriptors of VSRs that we devised as a way of characterizing their shape and behaviour. We employed them (in a supervised learning pipeline) to assign each robot to a species, measure biodiversity in VSRs and study how it mutates as the evolutionary algorithm and the controller representation are changed.
+By running the main file (`Main.java`), you will launch an evolutionary optimization for evolving jointly the body (number and arrangement of the voxels) and brain (the controller, an Artificial Neural Network (ANN)) of Voxel-based Soft Robots (VSRs). At the same time, a number of evolution metadata and interesting features will be saved inside the `output` folder. Features include descriptors of VSRs that we devised as a way of characterizing their shape and behaviour. We employed them (in a supervised learning pipeline) to assign each robot to a species, measure biodiversity in VSRs and study how it mutates as the evolutionary algorithm and the controller representation vary.
 
 ## Structure
 * `src` contains all the source code for the project;
-* `libs` contains the .jar files for some of the dependencies (see below);
-* `Data_Analysis_Notebook.ipynb` is Jupyter Notebook (Python) with some routines and starter code to perform analysis on the evolution output files.
+* `libs` contains the .jar files for the dependencies (see below);
+* `Data_Analysis_Notebook.ipynb` is a Jupyter Notebook (Python) with some routines and starter code to perform analysis on the evolution output files.
 
 ## Dependencies
 It relies on:
